@@ -1,0 +1,15 @@
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/bin/Debug/net7.0/BridgeLabs_AMTPL
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/bin/Debug/net7.0/BridgeLabs_AMTPL.deps.json
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/bin/Debug/net7.0/BridgeLabs_AMTPL.runtimeconfig.json
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/bin/Debug/net7.0/BridgeLabs_AMTPL.dll
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/bin/Debug/net7.0/BridgeLabs_AMTPL.pdb
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/obj/Debug/net7.0/BridgeLabs_AMTPL.csproj.AssemblyReference.cache
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/obj/Debug/net7.0/BridgeLabs_AMTPL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/obj/Debug/net7.0/BridgeLabs_AMTPL.AssemblyInfoInputs.cache
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/obj/Debug/net7.0/BridgeLabs_AMTPL.AssemblyInfo.cs
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/obj/Debug/net7.0/BridgeLabs_AMTPL.csproj.CoreCompileInputs.cache
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/obj/Debug/net7.0/BridgeLabs_AMTPL.dll
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/obj/Debug/net7.0/refint/BridgeLabs_AMTPL.dll
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/obj/Debug/net7.0/BridgeLabs_AMTPL.pdb
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/obj/Debug/net7.0/BridgeLabs_AMTPL.genruntimeconfig.cache
+/Users/m.akshay/Downloads/BridgeLabz-Training-AMTPL/BridgeLabs_AMTPL/BridgeLabs_AMTPL/obj/Debug/net7.0/ref/BridgeLabs_AMTPL.dll
