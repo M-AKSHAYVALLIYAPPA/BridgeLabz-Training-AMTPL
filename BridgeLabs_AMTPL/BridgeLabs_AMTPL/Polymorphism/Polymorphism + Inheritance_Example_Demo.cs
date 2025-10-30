@@ -36,16 +36,19 @@ class Program3
 {
     static void Main()
     {
-        Animal3 MyAnimal = new Animal3();
+        Animal3 MyAnimal = new Animal3(); //Animal Reference Animal Object;
         MyAnimal.Moves();
 
-        Animal3 MyBird = new Bird();
+        Animal3 MyBird = new Bird(); //Parent Reference, Subclass Object;
         MyBird.Moves();
 
-        Animal3 MyFish = new Fish();
+        Animal3 MyFish = new Fish(); //Animal Reference, Fish Object;
         MyFish.Moves();
 
-        Animal3 MyHuman = new Human();
+        Animal3 MyHuman = new Human(); //Animal Reference, Human Object;
         MyHuman.Moves();
+
+        // This shows us Polymorphism, i.e., the program knows which Method to
+        // execute Automatically by itself;
     }
 }
