@@ -23,7 +23,7 @@ class Dog5 : Animal5
         Console.WriteLine("Dog's Name: " + name);
         Console.WriteLine("Dog's Species: " + species);
         Console.WriteLine("Dog's Age: " + age);
-        Console.WriteLine("Dog's Weight: " + weight);
+        //Console.WriteLine("Dog's Weight: " + weight);
     }
 }
 

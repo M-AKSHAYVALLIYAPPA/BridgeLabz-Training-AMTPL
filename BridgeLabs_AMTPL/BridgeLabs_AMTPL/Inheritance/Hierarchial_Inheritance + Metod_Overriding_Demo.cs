@@ -12,7 +12,7 @@ class Dog2 : Animal2
 {
     public override void Sound()
     {
-        Console.WriteLine("Dog is Barking");
+        Console.WriteLine("Dog is Barking !");
     }
 }
 
@@ -34,7 +34,7 @@ class Program2
         Dog2 dog = new Dog2(); //Dog object is created
         dog.Sound(); //Overrided Sound Method from Animal called from Dog Class
 
-        Cat2 cat = new Cat2(); //Cat object is created
+        Cat2 cat = new Cat2(); //Dog object is created
         cat.Sound(); //Overrided Sound Method from Animal called from Cat Class
     }
 }
