@@ -20,8 +20,8 @@ class Program7
 {
     static void Main()
     {
-        Base obj = new Derived();
-        obj.Test();
+        Base obj = new Derived(); //apparently when method hiding(New keyword) is used,
+        obj.Test();              // Reference class's method is used
         Derived obj1 = new Derived();
         obj1.Test();
 
