@@ -1,11 +1,9 @@
-﻿using System;
-namespace BridgeLabs_AMTPL.Polymorphism
-{
-	public class Sealed_Class_Demo
-	{
-		public Sealed_Class_Demo()
-		{
-		}
-	}
-}
+﻿/*
 
+sealed class FinalClass
+{ // Cannot be inherited
+    public void Method() { }
+}
+class Derived : FinalClass { } // COMPILE ERROR!
+
+*/

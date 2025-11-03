@@ -5,15 +5,19 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Program9</StartupObject>
+    <StartupObject>Program12</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Inheritance\" />
     <None Remove="Polymorphism\" />
+    <None Remove="Abstraction\" />
+    <None Remove="Employee_Wage_Problem\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Inheritance\" />
     <Folder Include="Polymorphism\" />
+    <Folder Include="Abstraction\" />
+    <Folder Include="Employee_Wage_Problem\" />
   </ItemGroup>
 </Project>

@@ -27,9 +27,9 @@ class Program8
 {
     public static void Main()
     {
-        Grandparent gp = new Parent();
+        Grandparent gp = new Parent();  //If new is used, the object will definetly point to Parent Class reference only
         gp.Method();
-        Grandparent gp1 = new GrandChild();
+        Grandparent gp1 = new GrandChild(); //Same policy, Since new is used in Parent class, It will point towards it's own Parent, i.e., Grandparent method
         gp1.Method();
     }
 }
