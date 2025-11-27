@@ -1,34 +1,39 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
-namespace AddressBookApp.UseCases
+namespace Address_Book_Problem
 {
     public class EditContact
     {
         public void Execute(List<Dictionary<string, string>> contacts)
         {
-            Console.Write("Enter First Name of contact to edit: ");
-            string name = Console.ReadLine();
+            Console.Write("Enter the first name of the contact you want to modify: ");
+            string searchName = Console.ReadLine();
 
-            var contact = contacts.Find(c => c["FirstName"].Equals(name, StringComparison.OrdinalIgnoreCase));
+            var contact = contacts.Find(c =>
+                c.ContainsKey("FirstName") &&
+                c["FirstName"].Equals(searchName, StringComparison.OrdinalIgnoreCase));
 
             if (contact == null)
             {
-                Console.WriteLine("Contact not found!");
+                Console.WriteLine("No matching contact found.");
                 return;
             }
 
-            Console.WriteLine("Enter new details:");
-            Console.Write("New Address: ");
+            Console.WriteLine("\nUpdate Details:");
+            Console.Write("Address: ");
             contact["Address"] = Console.ReadLine();
-            Console.Write("New City: ");
+
+            Console.Write("City: ");
             contact["City"] = Console.ReadLine();
-            Console.Write("New State: ");
+
+            Console.Write("State: ");
             contact["State"] = Console.ReadLine();
-            Console.Write("New Zip: ");
+
+            Console.Write("Zip Code: ");
             contact["Zip"] = Console.ReadLine();
 
-            Console.WriteLine("\nContact updated successfully!");
+            Console.WriteLine("\nContact information updated.");
         }
     }
 }
