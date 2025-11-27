@@ -1,37 +1,41 @@
 using System;
 
-namespace AddressBookApp.UseCases
+namespace Address_Book_Problem
 {
     public class AddNewContact
     {
         public void Execute()
         {
-            Console.WriteLine("=== Add New Contact ===");
-            Console.Write("Enter First Name: ");
+            Console.WriteLine("---- Create a Contact ----");
+
+            Console.Write("First Name: ");
             string firstName = Console.ReadLine();
 
-            Console.Write("Enter Last Name: ");
+            Console.Write("Last Name: ");
             string lastName = Console.ReadLine();
 
-            Console.Write("Enter Address: ");
+            Console.Write("Street Address: ");
             string address = Console.ReadLine();
 
-            Console.Write("Enter City: ");
+            Console.Write("City Name: ");
             string city = Console.ReadLine();
 
-            Console.Write("Enter State: ");
+            Console.Write("State: ");
             string state = Console.ReadLine();
 
-            Console.Write("Enter Zip: ");
+            Console.Write("Zip Code: ");
             string zip = Console.ReadLine();
 
-            Console.Write("Enter Phone Number: ");
+            Console.Write("Phone: ");
             string phone = Console.ReadLine();
 
-            Console.Write("Enter Email: ");
+            Console.Write("Email ID: ");
             string email = Console.ReadLine();
 
-            Console.WriteLine($"\nContact Added: {firstName} {lastName}, {address}, {city}, {state}, {zip}, {phone}, {email}");
+            string summary = $"{firstName} {lastName} | {address}, {city}, {state} - {zip} | {phone} | {email}";
+
+            Console.WriteLine("\nNew contact saved:");
+            Console.WriteLine(summary);
         }
     }
 }
